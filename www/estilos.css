@@ -1,0 +1,128 @@
+/* CSS Document */
+
+a, a:visited{
+	font-family: Tahoma, Geneva, sans-serif;
+	color: blue;
+	text-decoration: none;
+}
+a:hover{
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #C00;
+	text-decoration: underline;
+}
+
+a.vinculosPestana, a.vinculosPestana:visited{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	color: white;
+	text-decoration: none;
+}
+a.vinculosPestana:hover{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	color: #C96;
+	text-decoration: underline;
+}
+.cuerpoPredeterminado{
+	margin: 0px;
+	background-color: black;
+	background-image: url(images/fondo.jpg);
+	background-attachment: fixed;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #000;
+}
+.tablaBarner {
+	background-image: url(images/barner.jpg);
+	background-repeat: no-repeat;
+	width: 800px;
+	height: 189px;
+	border-left: 2px white white;
+	border-right: 2px white white;
+	text-align:center;
+}
+.botonSeleccionado{
+	background-image: url(images/middlebar_selected.gif);
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	color: white;
+	text-align:center;
+	font-weight: normal;
+	vertical-align: middle;
+}
+.botonDesSeleccionado{
+	background-image: url(images/middlebar_unselected.gif);
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	color: white;
+	text-align:center;
+	vertical-align: middle;
+}
+.tdDesLink{
+	border-bottom: #3F6 solid 2px;
+}
+.tdLink{
+
+}
+.tablaPestanas {
+	background-color: transparent;
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 30px;
+	borde: 0px none white;
+}
+.parrafoCreditos {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	color: #069;
+	text-align: center;
+}
+.tablaContenido {
+	background-color: #FFF;
+	text-align: left;
+	width: 800px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	border-color: #3F6;
+	border-style: solid;
+	border-width: 0px 2px 2px 2px;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+}
+.parrafoTitulo {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	color: #006;
+}
+.parrafoNormal {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	color: #000;
+}.tablaFormulario {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #003;
+	background-color: #FFF;
+	text-align: left;
+	padding: 6px;
+	border: 2px outset #90C;
+}
+.celdaCabecera {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	background-color: #0CF;
+	text-align: left;
+	padding: 6px;
+}
+.celdaRegistro {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
