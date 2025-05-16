@@ -5,8 +5,6 @@ diseñada para administrar grupos de trabajo (mediante una llave de acceso), tar
 Proporciona funcionalidades clave para la organización de equipos y el seguimiento del 
 progreso en proyectos colaborativos.
 
----
-
 ## 📐 Arquitectura General
 
 - **Backend:** PHP 5 (Usando)
@@ -15,6 +13,7 @@ progreso en proyectos colaborativos.
 - **Estructura:** Código procedimental o parcialmente modular
 - **Persistencia:** Consultas SQL directas
 - **Gestión de sesiones:** A través de `$_SESSION`
+- **Año de programación:** 2011
 
 ---
 
@@ -74,3 +73,17 @@ progreso en proyectos colaborativos.
 
 5. **Acceder a la aplicación desde el navegador**, ejemplo http://localhost/tu_repositorio/:
 
+---
+
+## 📦 Capuras de pantalla
+- Inicio
+  ![Captura de pantalla 2025-05-15 213849.png](_Screenshots/Captura%20de%20pantalla%202025-05-15%20213849.png)
+- Registro
+  ![Captura de pantalla 2025-05-15 213852.png](_Screenshots/Captura%20de%20pantalla%202025-05-15%20213852.png)
+- Proyectos
+  ![Captura de pantalla 2025-05-15 213844.png](_Screenshots/Captura%20de%20pantalla%202025-05-15%20213844.png)
+- Grupos
+  ![grupos.png](_Screenshots/grupos.png)
+- Tareas
+  ![tareas.png](_Screenshots/tareas.png)
+---
